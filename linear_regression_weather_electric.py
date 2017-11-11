@@ -12,7 +12,7 @@ test_dataset = load_csv('datasets/test_electrical_output_weather.csv')
 
 for i in range(len(dataset[0])):
 	int_column_to_float(dataset, i)
-	
+
 for i in range(len(test_dataset[0])):
 	int_column_to_float(test_dataset, i)
 
