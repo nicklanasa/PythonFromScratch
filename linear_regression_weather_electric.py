@@ -3,7 +3,7 @@ from random import randrange
 from utils.load_csv import load_csv
 from evaluation_metrics.rmse_metric import rmse_metric
 from utils.evaluate_algorithm import tt_evaluate_algorithm_with_metric_algorithm, evaluate_algorithm_with_metric_algorithm
-from utils.utils import int_column_to_float
+from utils.conversion_functions import int_column_to_float
 from models.linear_regression import linear_regression
 from baseline_models.zero_rule_algorithm_classification import zero_rule_algorithm_classification
 

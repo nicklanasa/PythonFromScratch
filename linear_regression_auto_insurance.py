@@ -3,7 +3,7 @@ from random import randrange
 from utils.load_csv import load_csv
 from evaluation_metrics.rmse_metric import rmse_metric
 from utils.evaluate_algorithm import tt_evaluate_algorithm_with_metric_algorithm
-from utils.utils import str_column_to_float
+from utils.conversion_functions import str_column_to_float
 from models.linear_regression import linear_regression
 
 dataset = load_csv('datasets/insurance.csv')
