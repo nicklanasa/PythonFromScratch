@@ -14,8 +14,8 @@ def train_test_split(dataset, split=0.60):
 	return train, dataset_copy
 	
 # test train/test split
-seed(1)
-dataset = [[1], [2], [3], [4], [5], [6], [7], [8], [9], [10]]
-train, test = train_test_split(dataset)
-print(train)
-print(test)
+#seed(1)
+#dataset = [[1], [2], [3], [4], [5], [6], [7], [8], [9], [10]]
+#train, test = train_test_split(dataset)
+#print(train)
+#print(test)

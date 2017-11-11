@@ -1,8 +1,10 @@
-from load_csv import load_csv
-
 def str_column_to_float(dataset, column):
 	for row in dataset:
 		row[column] = float(row[column].strip())
+		
+def int_column_to_float(dataset, column):
+	for row in dataset:
+		row[column] = float(row[column])
 		
 # filename = 'pima-indians-diabetes.csv'
 # dataset = load_csv(filename)

@@ -1,5 +1,5 @@
 from load_csv import load_csv
-from utils import str_column_to_float 
+from utils import str_column_to_float
 
 def dataset_minmax(dataset):
 	minmax = list()
